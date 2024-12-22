@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Services\CategoryService;
 use App\Http\Services\PageService;
 use App\Http\Services\TagService;
+use App\Models\Page;
 use Illuminate\Http\Request;
 
 class PageController extends Controller

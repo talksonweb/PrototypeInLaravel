@@ -19,7 +19,7 @@ class Page extends Model
     {
         return $this->belongsToMany(Tag::class)->withTimestamps();
     }
-    
+     
     public function replicate(?array $except = null)
     {
         $page = parent::replicate();
